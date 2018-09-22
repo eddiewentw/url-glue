@@ -1,0 +1,20 @@
+{
+  "name": "url-glue",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "keywords": [],
+  "files": [],
+  "scripts": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "github.com:eddiewentw/url-glue.git"
+  },
+  "homepage": "https://github.com/eddiewentw/url-glue",
+  "bugs": {
+    "url": "https://github.com/eddiewentw/url-glue/issues",
+    "email": "eddiewen.tw@gmail.com"
+  },
+  "author": "Eddie Wen <eddiewen.tw@gmail.com>",
+  "license": "MIT"
+}
