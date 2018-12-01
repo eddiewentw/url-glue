@@ -14,7 +14,8 @@
     "test": "jest --coverage",
     "prebuild": "npm run clean",
     "build": "babel lib --out-dir dist",
-    "release": "standard-version"
+    "release": "standard-version",
+    "prepublish": "npm run build"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.5",
