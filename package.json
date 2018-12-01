@@ -5,9 +5,11 @@
   "keywords": [],
   "files": [],
   "scripts": {
-    "clean": "rm -rf ./coverage ./*.log",
+    "clean": "rm -rf ./coverage ./*.log ./dist",
     "lint": "eslint ./lib --config .eslintrc.json",
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "prebuild": "npm run clean",
+    "build": "babel lib --out-dir dist"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.5",
