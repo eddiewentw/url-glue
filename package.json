@@ -25,7 +25,8 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
     "flow-bin": "^0.87.0",
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "standard-version": "^4.4.0"
   },
   "repository": {
     "type": "git",
