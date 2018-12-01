@@ -1,0 +1,8 @@
+# config
+.babelrc
+.editorconfig
+.eslintrc.json
+.flowconfig
+
+# test
+__tests__
