@@ -2,8 +2,12 @@
   "name": "url-glue",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "keywords": [],
-  "files": [],
+  "keywords": [
+    "url",
+    "path",
+    "connect",
+    "link"
+  ],
   "scripts": {
     "clean": "rm -rf ./coverage ./*.log ./dist",
     "lint": "eslint ./lib ./__tests__ --config .eslintrc.json",
