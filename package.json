@@ -6,7 +6,7 @@
   "files": [],
   "scripts": {
     "clean": "rm -rf ./coverage ./*.log ./dist",
-    "lint": "eslint ./lib --config .eslintrc.json",
+    "lint": "eslint ./lib ./__tests__ --config .eslintrc.json",
     "test": "jest --coverage",
     "prebuild": "npm run clean",
     "build": "babel lib --out-dir dist"
