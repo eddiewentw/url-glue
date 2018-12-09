@@ -7,7 +7,7 @@
 
 Inspired by [url-join](https://github.com/jfromaniello/url-join). Better, easier to use API.
 
-### Installation
+## Installation
 
 via [npm](https://www.npmjs.com/package/url-glue)
 
@@ -15,4 +15,13 @@ via [npm](https://www.npmjs.com/package/url-glue)
 $ yarn add url-glue
 
 # $ npm install url-glue
+```
+
+## Usage
+
+```javascript
+import urlGlue from 'url-glue';
+
+const url = urlGlue('https://www.example.com', 'foo', '/bar');
+// https://www.example.com/foo/bar
 ```
